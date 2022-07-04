@@ -1,8 +1,8 @@
 import React from 'react'
 
-const User = () => {
+const User = (props:{name:string}) => {
   return (
-    <div>User</div>
+    <div>{props.name}</div>
   )
 }
 
