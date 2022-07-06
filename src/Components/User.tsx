@@ -1,8 +1,14 @@
 import React from 'react'
+type userprops={name:string;age:number};
 
-const User = (props:{name:string}) => {
+const User = (props:userprops) => {
   return (
-    <div>{props.name}</div>
+    <div>
+        <p>{props.name}</p>
+        <p>{props.age} years old</p>
+    
+    </div>
+    
   )
 }
 
